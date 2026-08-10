@@ -1,0 +1,9 @@
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*~
+
+# Never commit anything sensitive here — this repo is the PUBLIC website only.
+# Keep legal/financial/company-internal docs OUT of this folder.

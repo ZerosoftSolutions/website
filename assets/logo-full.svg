@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" fill="none" role="img" aria-label="ZeroSoft Solutions">
+  <g transform="translate(8,8)">
+    <path d="M16 12 8 24 16 36" stroke="#1B3D2E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32 12 40 24 32 36" stroke="#1B3D2E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M19 17H29L19 31H29" stroke="#1B3D2E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <line x1="68" y1="17" x2="68" y2="47" stroke="#1B3D2E" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="84" y="35" font-family="Montserrat, Arial, sans-serif" font-size="25" font-weight="800" letter-spacing="0.5">
+    <tspan fill="#1B3D2E">ZERO</tspan><tspan fill="#222629">SOFT</tspan>
+  </text>
+  <text x="85" y="49" font-family="Montserrat, Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="5" fill="#6B7280">SOLUTIONS</text>
+</svg>
