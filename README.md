@@ -1,6 +1,6 @@
-# ZeroSoft Solutions — Marketing Website
+# Zerosoft Solutions — Marketing Website
 
-Static marketing site for **ZeroSoft Solutions LLC** (zerosoftsolutions.com).
+Static marketing site for **Zerosoft Solutions LLC** (zerosoftsolutions.com).
 Plain HTML/CSS, no build step. Deployable to any static host.
 
 ## Structure

@@ -1,4 +1,4 @@
-# Deploy Guide — ZeroSoft Solutions website
+# Deploy Guide — Zerosoft Solutions website
 
 Live target: **https://zerosoftsolutions.com** (domain already owned).
 This repo is the public marketing site. Hosting is free; only the domain has a cost (already paid).
@@ -7,11 +7,11 @@ This repo is the public marketing site. Hosting is free; only the domain has a c
 
 ---
 
-## Step 1 — Push to GitHub (org: ZeroSoftSolutions)
-Create an empty repo named **website** on github.com/ZeroSoftSolutions (no README/license — this repo already has them). Then, from this folder:
+## Step 1 — Push to GitHub (org: ZerosoftSolutions)
+Create an empty repo named **website** on github.com/ZerosoftSolutions (no README/license — this repo already has them). Then, from this folder:
 
 ```bash
-git remote add origin https://github.com/ZeroSoftSolutions/website.git
+git remote add origin https://github.com/ZerosoftSolutions/website.git
 git push -u origin main
 ```
 
@@ -24,7 +24,7 @@ git push -u origin main
 4. Check **Enforce HTTPS** (may take a few minutes to become available)
 
 ### Option B — Cloudflare Pages (fast CDN, great for custom domains)
-1. Cloudflare dash → **Workers & Pages → Create → Pages → Connect to Git** → pick `ZeroSoftSolutions/website`
+1. Cloudflare dash → **Workers & Pages → Create → Pages → Connect to Git** → pick `ZerosoftSolutions/website`
 2. Build settings: **no build command**, output directory = `/` (it's plain static)
 3. Deploy → then **Custom domains → Set up a custom domain** → `zerosoftsolutions.com`
    (Cloudflare ignores the `CNAME` file — that's only for GitHub Pages.)
