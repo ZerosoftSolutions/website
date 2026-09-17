@@ -18,15 +18,16 @@
 
 <header class="site-header"><div class="wrap">
   <a href="index.html" class="logo"><svg class="logo-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M16 12 8 24 16 36" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 12 40 24 32 36" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 17H29L19 31H29" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="logo-text"><span class="z">Zero</span><span class="s">Soft</span><small>Solutions</small></span></a>
-  <nav class="mainnav">
+  <nav class="mainnav" id="mainnav">
     <a href="index.html">Home</a>
     <a href="src/services.html">Services</a>
     <div class="dropdown">
       <a class="drop-toggle" tabindex="0">Products <span class="caret">▾</span></a>
       <div class="menu"><span class="soon">Coming soon<small>New products in the works</small></span></div>
     </div>
-    <a class="btn" href="#contact">Get in touch</a>
   </nav>
+  <a class="btn" href="#contact">Get in touch</a>
+  <button class="navtoggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainnav"><span></span><span></span><span></span></button>
 </div></header>
 
 <section class="hero"><div class="wrap">
@@ -101,12 +102,16 @@
 </div></section>
 
 <footer class="site-footer"><div class="wrap">
-  <div>&copy; 2026 Zerosoft Solutions LLC</div>
-  <div class="links">
-    <a href="src/privacy.html">Privacy Policy</a>
-    <a href="src/terms.html">Terms</a>
+  <div class="footer-notice">Use of this Site is subject to our <a href="src/terms.html">Terms of Service</a> and <a href="src/privacy.html">Privacy Policy</a>.</div>
+  <div class="footer-row">
+    <div>&copy; 2026 Zerosoft Solutions LLC</div>
+    <div class="links">
+      <a href="src/privacy.html">Privacy Policy</a>
+      <a href="src/terms.html">Terms</a>
+    </div>
   </div>
 </div></footer>
 
+<script src="src/nav.js"></script>
 </body>
 </html>
